@@ -34,6 +34,6 @@ df = df.reset_index(drop=True)
 
 #    mostlike = df.loc[df.likes.nlargest(5).index]
 
-#    mostlike
+
 
 df.to_csv('twitter.csv')
